@@ -6,5 +6,7 @@
 - Confirm your page uses valid [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/)
 
 ## Submission
-- Deploy your work to a publicly available location and submit this URL as "proof of work"
-- Submit a pull request (PR) to this repo on a branch labeled with your full name: `firstname-lastname`
+- Create a new local branch labeled with your full name: `firstname-lastname`
+- Commit all your changes to this branch and push it up to this repo with `git push origin your-branch-name`
+- Deploy your work to a publicly available location using `surge.sh` (or similar)
+- Submit your public URL as "proof of work" to Canvas with any comments you'd like to add
