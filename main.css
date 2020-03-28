@@ -1,0 +1,102 @@
+/* I can't get the right margins to work!!*/
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none; color: rgb(47, 24, 90);
+}
+
+body {
+  background-color: rgb(70, 20, 20);
+  margin: 0 auto auto;
+  width: 90%;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+.content {
+  margin: 5% auto auto;
+  justify-content: center;
+  height: fit-content;
+  background-color: rgb(124, 124, 167);;
+  border: 1px solid white;
+  padding: 2%;
+  color: black;
+}
+
+.content h2 {
+  color: white;
+}
+
+.firstTaskImage img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+
+header {
+  text-align: center;
+  background-color:rgb(124, 124, 167);;
+  width: 100%;
+  height: fit-content;
+  margin: 0 auto auto;
+  border: 1px solid white;
+  padding: 2%;
+}
+
+header h1 {
+  font-family: "Times New Roman";
+  font-size: 40px;
+  background-color: darkgray;
+  color: white;
+  border: 1px solid white;
+  padding: 0%;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: auto;
+}
+
+header img {
+  width: 25%;
+  height: 25%;
+  margin-top: 5px;
+}
+
+html {
+  font-family: "Times New Roman";
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  color: black;
+  margin: 20px;
+}
+
+#task1 p {
+  margin: 50px;
+}
+
+.row {
+  display: flex;
+}
+
+.zoom {
+  padding: 50px;
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
